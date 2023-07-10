@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio Website</title>
+    <link rel="stylesheet" href="EP style.css">
+    <script src="https://kit.fontawesome.com/1a465970b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+     <div id="header">
+        <div id="container">
+            <nav>
+                <img src="" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Web Developer</p>
+                <h1>Hello, I'm <span>Milca<br>Humado</span> from Togo</h1>
+            </div>
+        </div>
+     </div>
+
+     <!-- ---------about--------- -->
+
+     <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-titlte">About Me</h1>
+                    <p>The J2EE platform provides choices for graphical user interfaces 
+                        across a company's intranet or on the World Wide Web. Clients can run 
+                        on desktops, laptops, PDAs, cell phones, and other devices. Pure client-side
+                        user interfaces can use standard HTML and Java applets.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link"  onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML //CSS// JS // Web Design</li>
+                            <li><span>App Development</span><br>Android // iOS // Windows</li>
+                            <li><span>Full Stack</span><br>Web Developer</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Trainee</li>
+                            <li><span>2019 - 2020</span><br>UI/UX</li>
+                            <li><span>2015 - 2018</span><br>Web Developer</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>I</li>
+                            <li><span>2019</span><br>L</li>
+                            <li><span>2015</span><br>AA</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+     </div>
+
+    <!-- ------services------ -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code fa-fade"></i>
+                    <h2>Web Development</h2>
+                    <p>A Junior Developer is a basic level software developer or programmer who works in a development team. They are in charge 
+                        of helping the team with all the coding</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-paintbrush-pencil fa-fade fa-2xs"></i>
+                    <h2>Digital Art</h2>
+                    <p>A Junior Developer is a basic level software developer or programmer who works in a development team. They are in charge 
+                        of helping the team with all the coding</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-desktop fa-fade"></i>
+                    <i class="fa-solid fa-mobile-screen fa-fade"></i>
+                    <h2>Desktop|Mobile App Development</h2>
+                    <p>A Junior Developer is a basic level software developer or programmer who works in a development team. They are in charge 
+                        of helping the team with all the coding</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------portfolio---------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./20210917_155633.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Oshi no Ko - Oshi no Ko - 02 
+                        VOSTFR - 02 - Voiranime-Streamtape.com_Moment(2)</p>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right fa-beat-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./c4aefec1433eaa3e3bc1b36ecbcc12e5.jpg" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Oshi no Ko - Oshi no Ko - 02 
+                        VOSTFR - 02 - Voiranime-Streamtape.com_Moment(2)</p>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right fa-beat-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Capture d’écran 2023-05-23 134747.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Oshi no Ko - Oshi no Ko - 02 
+                        VOSTFR - 02 - Voiranime-Streamtape.com_Moment(2)</p>
+                        <a href="#"><i class="fa-solid fa-square-arrow-up-right fa-beat-fade"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+<!-----------contact---------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope fa-beat"></i><a href="">milcapatricia983@gmail.com</a></p>
+                    <p><i class="fa-solid fa-square-phone fa-beat fa-sm"></i>0000076878</p>
+                    <div class="social-icons"> 
+                      <a href="https://facebook.com/"><i class="fa-brands fa-facebook fa-beat"></i></a>
+                      <a href="https://www.linkedin.com/in/milca-humado-b41448264/"><i class="fa-brands fa-linkedin fa-beat fa-sm"></i></a>
+                      <a href="https://instagram.com/mi.ki_203?igshid=ZDc4ODBmNjlmNQ==/"><i class="fa-brands fa-square-instagram fa-beat"></i></a>
+                      <a href="https://tiktok.com/@micki2031/"><i class="fa-brands fa-tiktok fa-beat fa-sm"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Downlod CV</a>
+                
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Milca <i class="fa-regular fa-copyright"></i></p>
+        </div>
+    </div>
+
+
+<!-----------JavaScript---------->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+     <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+     </script>
+
+     <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxhkHYLDCZ9OrHHcuzNwfTfkeM6CVeIu3tvNWWZBRO_mtviQ464BC-mGxgLFuU8fPQs4g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message received successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+</html>
